@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FFC9F581C9AA018006C6786 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC9F571C9AA018006C6786 /* AppDelegate.swift */; };
+		3FFC9F5A1C9AA018006C6786 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC9F591C9AA018006C6786 /* ViewController.swift */; };
+		3FFC9F5D1C9AA018006C6786 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFC9F5B1C9AA018006C6786 /* Main.storyboard */; };
+		3FFC9F5F1C9AA018006C6786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FFC9F5E1C9AA018006C6786 /* Assets.xcassets */; };
+		3FFC9F621C9AA018006C6786 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFC9F601C9AA018006C6786 /* LaunchScreen.storyboard */; };
+		3FFC9F6D1C9AA018006C6786 /* MyinstargramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC9F6C1C9AA018006C6786 /* MyinstargramTests.swift */; };
+		3FFC9F781C9AA018006C6786 /* MyinstargramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC9F771C9AA018006C6786 /* MyinstargramUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FFC9F691C9AA018006C6786 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FFC9F4C1C9AA018006C6786 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FFC9F531C9AA018006C6786;
+			remoteInfo = Myinstargram;
+		};
+		3FFC9F741C9AA018006C6786 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FFC9F4C1C9AA018006C6786 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FFC9F531C9AA018006C6786;
+			remoteInfo = Myinstargram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FFC9F541C9AA018006C6786 /* Myinstargram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Myinstargram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FFC9F571C9AA018006C6786 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FFC9F591C9AA018006C6786 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FFC9F5C1C9AA018006C6786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FFC9F5E1C9AA018006C6786 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FFC9F611C9AA018006C6786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FFC9F631C9AA018006C6786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FFC9F681C9AA018006C6786 /* MyinstargramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyinstargramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FFC9F6C1C9AA018006C6786 /* MyinstargramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyinstargramTests.swift; sourceTree = "<group>"; };
+		3FFC9F6E1C9AA018006C6786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FFC9F731C9AA018006C6786 /* MyinstargramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyinstargramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FFC9F771C9AA018006C6786 /* MyinstargramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyinstargramUITests.swift; sourceTree = "<group>"; };
+		3FFC9F791C9AA018006C6786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FFC9F511C9AA018006C6786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFC9F651C9AA018006C6786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFC9F701C9AA018006C6786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FFC9F4B1C9AA018006C6786 = {
+			isa = PBXGroup;
+			children = (
+				3FFC9F561C9AA018006C6786 /* Myinstargram */,
+				3FFC9F6B1C9AA018006C6786 /* MyinstargramTests */,
+				3FFC9F761C9AA018006C6786 /* MyinstargramUITests */,
+				3FFC9F551C9AA018006C6786 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FFC9F551C9AA018006C6786 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FFC9F541C9AA018006C6786 /* Myinstargram.app */,
+				3FFC9F681C9AA018006C6786 /* MyinstargramTests.xctest */,
+				3FFC9F731C9AA018006C6786 /* MyinstargramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FFC9F561C9AA018006C6786 /* Myinstargram */ = {
+			isa = PBXGroup;
+			children = (
+				3FFC9F571C9AA018006C6786 /* AppDelegate.swift */,
+				3FFC9F591C9AA018006C6786 /* ViewController.swift */,
+				3FFC9F5B1C9AA018006C6786 /* Main.storyboard */,
+				3FFC9F5E1C9AA018006C6786 /* Assets.xcassets */,
+				3FFC9F601C9AA018006C6786 /* LaunchScreen.storyboard */,
+				3FFC9F631C9AA018006C6786 /* Info.plist */,
+			);
+			path = Myinstargram;
+			sourceTree = "<group>";
+		};
+		3FFC9F6B1C9AA018006C6786 /* MyinstargramTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FFC9F6C1C9AA018006C6786 /* MyinstargramTests.swift */,
+				3FFC9F6E1C9AA018006C6786 /* Info.plist */,
+			);
+			path = MyinstargramTests;
+			sourceTree = "<group>";
+		};
+		3FFC9F761C9AA018006C6786 /* MyinstargramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FFC9F771C9AA018006C6786 /* MyinstargramUITests.swift */,
+				3FFC9F791C9AA018006C6786 /* Info.plist */,
+			);
+			path = MyinstargramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FFC9F531C9AA018006C6786 /* Myinstargram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FFC9F7C1C9AA018006C6786 /* Build configuration list for PBXNativeTarget "Myinstargram" */;
+			buildPhases = (
+				3FFC9F501C9AA018006C6786 /* Sources */,
+				3FFC9F511C9AA018006C6786 /* Frameworks */,
+				3FFC9F521C9AA018006C6786 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Myinstargram;
+			productName = Myinstargram;
+			productReference = 3FFC9F541C9AA018006C6786 /* Myinstargram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FFC9F671C9AA018006C6786 /* MyinstargramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FFC9F7F1C9AA018006C6786 /* Build configuration list for PBXNativeTarget "MyinstargramTests" */;
+			buildPhases = (
+				3FFC9F641C9AA018006C6786 /* Sources */,
+				3FFC9F651C9AA018006C6786 /* Frameworks */,
+				3FFC9F661C9AA018006C6786 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FFC9F6A1C9AA018006C6786 /* PBXTargetDependency */,
+			);
+			name = MyinstargramTests;
+			productName = MyinstargramTests;
+			productReference = 3FFC9F681C9AA018006C6786 /* MyinstargramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FFC9F721C9AA018006C6786 /* MyinstargramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FFC9F821C9AA018006C6786 /* Build configuration list for PBXNativeTarget "MyinstargramUITests" */;
+			buildPhases = (
+				3FFC9F6F1C9AA018006C6786 /* Sources */,
+				3FFC9F701C9AA018006C6786 /* Frameworks */,
+				3FFC9F711C9AA018006C6786 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FFC9F751C9AA018006C6786 /* PBXTargetDependency */,
+			);
+			name = MyinstargramUITests;
+			productName = MyinstargramUITests;
+			productReference = 3FFC9F731C9AA018006C6786 /* MyinstargramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FFC9F4C1C9AA018006C6786 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Mac HD";
+				TargetAttributes = {
+					3FFC9F531C9AA018006C6786 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					3FFC9F671C9AA018006C6786 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3FFC9F531C9AA018006C6786;
+					};
+					3FFC9F721C9AA018006C6786 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3FFC9F531C9AA018006C6786;
+					};
+				};
+			};
+			buildConfigurationList = 3FFC9F4F1C9AA018006C6786 /* Build configuration list for PBXProject "Myinstargram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FFC9F4B1C9AA018006C6786;
+			productRefGroup = 3FFC9F551C9AA018006C6786 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FFC9F531C9AA018006C6786 /* Myinstargram */,
+				3FFC9F671C9AA018006C6786 /* MyinstargramTests */,
+				3FFC9F721C9AA018006C6786 /* MyinstargramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FFC9F521C9AA018006C6786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFC9F621C9AA018006C6786 /* LaunchScreen.storyboard in Resources */,
+				3FFC9F5F1C9AA018006C6786 /* Assets.xcassets in Resources */,
+				3FFC9F5D1C9AA018006C6786 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFC9F661C9AA018006C6786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFC9F711C9AA018006C6786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FFC9F501C9AA018006C6786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFC9F5A1C9AA018006C6786 /* ViewController.swift in Sources */,
+				3FFC9F581C9AA018006C6786 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFC9F641C9AA018006C6786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFC9F6D1C9AA018006C6786 /* MyinstargramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFC9F6F1C9AA018006C6786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFC9F781C9AA018006C6786 /* MyinstargramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FFC9F6A1C9AA018006C6786 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FFC9F531C9AA018006C6786 /* Myinstargram */;
+			targetProxy = 3FFC9F691C9AA018006C6786 /* PBXContainerItemProxy */;
+		};
+		3FFC9F751C9AA018006C6786 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FFC9F531C9AA018006C6786 /* Myinstargram */;
+			targetProxy = 3FFC9F741C9AA018006C6786 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FFC9F5B1C9AA018006C6786 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FFC9F5C1C9AA018006C6786 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FFC9F601C9AA018006C6786 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FFC9F611C9AA018006C6786 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FFC9F7A1C9AA018006C6786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FFC9F7B1C9AA018006C6786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FFC9F7D1C9AA018006C6786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Myinstargram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MacHD.Myinstargram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FFC9F7E1C9AA018006C6786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Myinstargram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MacHD.Myinstargram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3FFC9F801C9AA018006C6786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyinstargramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MacHD.MyinstargramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Myinstargram.app/Myinstargram";
+			};
+			name = Debug;
+		};
+		3FFC9F811C9AA018006C6786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyinstargramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MacHD.MyinstargramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Myinstargram.app/Myinstargram";
+			};
+			name = Release;
+		};
+		3FFC9F831C9AA018006C6786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyinstargramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MacHD.MyinstargramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Myinstargram;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3FFC9F841C9AA018006C6786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyinstargramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MacHD.MyinstargramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Myinstargram;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FFC9F4F1C9AA018006C6786 /* Build configuration list for PBXProject "Myinstargram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FFC9F7A1C9AA018006C6786 /* Debug */,
+				3FFC9F7B1C9AA018006C6786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FFC9F7C1C9AA018006C6786 /* Build configuration list for PBXNativeTarget "Myinstargram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FFC9F7D1C9AA018006C6786 /* Debug */,
+				3FFC9F7E1C9AA018006C6786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FFC9F7F1C9AA018006C6786 /* Build configuration list for PBXNativeTarget "MyinstargramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FFC9F801C9AA018006C6786 /* Debug */,
+				3FFC9F811C9AA018006C6786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FFC9F821C9AA018006C6786 /* Build configuration list for PBXNativeTarget "MyinstargramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FFC9F831C9AA018006C6786 /* Debug */,
+				3FFC9F841C9AA018006C6786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FFC9F4C1C9AA018006C6786 /* Project object */;
+}
