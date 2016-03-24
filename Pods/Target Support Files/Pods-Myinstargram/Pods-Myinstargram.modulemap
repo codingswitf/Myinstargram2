@@ -1,0 +1,6 @@
+framework module Pods_Myinstargram {
+  umbrella header "Pods-Myinstargram-umbrella.h"
+
+  export *
+  module * { export * }
+}

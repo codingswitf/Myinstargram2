@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10829034370848A8C8E71784 /* Pods_Myinstargram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3561468FA895911FF4AE6CB /* Pods_Myinstargram.framework */; };
+		3F55917E1C9BC97B00D80CAD /* RegesterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F55917D1C9BC97B00D80CAD /* RegesterViewController.swift */; };
+		3F5591801C9BCAC300D80CAD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F55917F1C9BCAC300D80CAD /* SystemConfiguration.framework */; };
+		3F5591821C9BCACD00D80CAD /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5591811C9BCACD00D80CAD /* StoreKit.framework */; };
+		3F5591841C9BCB1900D80CAD /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5591831C9BCB1900D80CAD /* MobileCoreServices.framework */; };
+		3F55918B1C9BD97300D80CAD /* Kumulos_ARMv7-Combined.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5591871C9BD97300D80CAD /* Kumulos_ARMv7-Combined.a */; };
+		3F55918C1C9BD97300D80CAD /* Kumulos.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5591891C9BD97300D80CAD /* Kumulos.m */; };
 		3FFC9F581C9AA018006C6786 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC9F571C9AA018006C6786 /* AppDelegate.swift */; };
 		3FFC9F5A1C9AA018006C6786 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC9F591C9AA018006C6786 /* ViewController.swift */; };
 		3FFC9F5D1C9AA018006C6786 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFC9F5B1C9AA018006C6786 /* Main.storyboard */; };
@@ -34,6 +41,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3EDFD5261CEBEDAE22F068E8 /* Pods-Myinstargram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Myinstargram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Myinstargram/Pods-Myinstargram.debug.xcconfig"; sourceTree = "<group>"; };
+		3F55917D1C9BC97B00D80CAD /* RegesterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegesterViewController.swift; sourceTree = "<group>"; };
+		3F55917F1C9BCAC300D80CAD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3F5591811C9BCACD00D80CAD /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		3F5591831C9BCB1900D80CAD /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		3F5591861C9BD97200D80CAD /* Myinstargram-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Myinstargram-Bridging-Header.h"; sourceTree = "<group>"; };
+		3F5591871C9BD97300D80CAD /* Kumulos_ARMv7-Combined.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "Kumulos_ARMv7-Combined.a"; sourceTree = "<group>"; };
+		3F5591881C9BD97300D80CAD /* Kumulos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kumulos.h; sourceTree = "<group>"; };
+		3F5591891C9BD97300D80CAD /* Kumulos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kumulos.m; sourceTree = "<group>"; };
+		3F55918A1C9BD97300D80CAD /* libKumulos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libKumulos.h; sourceTree = "<group>"; };
 		3FFC9F541C9AA018006C6786 /* Myinstargram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Myinstargram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFC9F571C9AA018006C6786 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FFC9F591C9AA018006C6786 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +64,8 @@
 		3FFC9F731C9AA018006C6786 /* MyinstargramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyinstargramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFC9F771C9AA018006C6786 /* MyinstargramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyinstargramUITests.swift; sourceTree = "<group>"; };
 		3FFC9F791C9AA018006C6786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4215EA369BEBAE6CEAEC064B /* Pods-Myinstargram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Myinstargram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Myinstargram/Pods-Myinstargram.release.xcconfig"; sourceTree = "<group>"; };
+		E3561468FA895911FF4AE6CB /* Pods_Myinstargram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Myinstargram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +73,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F5591841C9BCB1900D80CAD /* MobileCoreServices.framework in Frameworks */,
+				3F55918B1C9BD97300D80CAD /* Kumulos_ARMv7-Combined.a in Frameworks */,
+				3F5591821C9BCACD00D80CAD /* StoreKit.framework in Frameworks */,
+				3F5591801C9BCAC300D80CAD /* SystemConfiguration.framework in Frameworks */,
+				10829034370848A8C8E71784 /* Pods_Myinstargram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +98,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AA6C836F3687C04D8043F97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F5591831C9BCB1900D80CAD /* MobileCoreServices.framework */,
+				3F5591811C9BCACD00D80CAD /* StoreKit.framework */,
+				3F55917F1C9BCAC300D80CAD /* SystemConfiguration.framework */,
+				E3561468FA895911FF4AE6CB /* Pods_Myinstargram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F5591751C9BC75000D80CAD /* KumulosAPI */ = {
+			isa = PBXGroup;
+			children = (
+				3F5591871C9BD97300D80CAD /* Kumulos_ARMv7-Combined.a */,
+				3F5591881C9BD97300D80CAD /* Kumulos.h */,
+				3F5591891C9BD97300D80CAD /* Kumulos.m */,
+				3F55918A1C9BD97300D80CAD /* libKumulos.h */,
+				3F5591861C9BD97200D80CAD /* Myinstargram-Bridging-Header.h */,
+			);
+			name = KumulosAPI;
+			sourceTree = "<group>";
+		};
 		3FFC9F4B1C9AA018006C6786 = {
 			isa = PBXGroup;
 			children = (
+				3F5591751C9BC75000D80CAD /* KumulosAPI */,
 				3FFC9F561C9AA018006C6786 /* Myinstargram */,
 				3FFC9F6B1C9AA018006C6786 /* MyinstargramTests */,
 				3FFC9F761C9AA018006C6786 /* MyinstargramUITests */,
 				3FFC9F551C9AA018006C6786 /* Products */,
+				89BD11549300781A4653C784 /* Pods */,
+				0AA6C836F3687C04D8043F97 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +153,7 @@
 				3FFC9F5E1C9AA018006C6786 /* Assets.xcassets */,
 				3FFC9F601C9AA018006C6786 /* LaunchScreen.storyboard */,
 				3FFC9F631C9AA018006C6786 /* Info.plist */,
+				3F55917D1C9BC97B00D80CAD /* RegesterViewController.swift */,
 			);
 			path = Myinstargram;
 			sourceTree = "<group>";
@@ -125,6 +176,15 @@
 			path = MyinstargramUITests;
 			sourceTree = "<group>";
 		};
+		89BD11549300781A4653C784 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EDFD5261CEBEDAE22F068E8 /* Pods-Myinstargram.debug.xcconfig */,
+				4215EA369BEBAE6CEAEC064B /* Pods-Myinstargram.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FFC9F7C1C9AA018006C6786 /* Build configuration list for PBXNativeTarget "Myinstargram" */;
 			buildPhases = (
+				69EAD5542355191D9E2CD31B /* Check Pods Manifest.lock */,
 				3FFC9F501C9AA018006C6786 /* Sources */,
 				3FFC9F511C9AA018006C6786 /* Frameworks */,
 				3FFC9F521C9AA018006C6786 /* Resources */,
+				8276F30428F3A265E885BB19 /* Embed Pods Frameworks */,
+				966A01D07D2214B88C75F0BB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,13 +314,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		69EAD5542355191D9E2CD31B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8276F30428F3A265E885BB19 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Myinstargram/Pods-Myinstargram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		966A01D07D2214B88C75F0BB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Myinstargram/Pods-Myinstargram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3FFC9F501C9AA018006C6786 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F55918C1C9BD97300D80CAD /* Kumulos.m in Sources */,
 				3FFC9F5A1C9AA018006C6786 /* ViewController.swift in Sources */,
 				3FFC9F581C9AA018006C6786 /* AppDelegate.swift in Sources */,
+				3F55917E1C9BC97B00D80CAD /* RegesterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,23 +510,38 @@
 		};
 		3FFC9F7D1C9AA018006C6786 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EDFD5261CEBEDAE22F068E8 /* Pods-Myinstargram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Myinstargram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.MacHD.Myinstargram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Myinstargram-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		3FFC9F7E1C9AA018006C6786 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4215EA369BEBAE6CEAEC064B /* Pods-Myinstargram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Myinstargram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.MacHD.Myinstargram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Myinstargram-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -484,6 +612,7 @@
 				3FFC9F7E1C9AA018006C6786 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FFC9F7F1C9AA018006C6786 /* Build configuration list for PBXNativeTarget "MyinstargramTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +621,7 @@
 				3FFC9F811C9AA018006C6786 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FFC9F821C9AA018006C6786 /* Build configuration list for PBXNativeTarget "MyinstargramUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +630,7 @@
 				3FFC9F841C9AA018006C6786 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
